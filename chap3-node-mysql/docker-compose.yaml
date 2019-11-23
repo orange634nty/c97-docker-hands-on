@@ -20,4 +20,5 @@ services:
       MYSQL_DATABASE: exapp_db
       MYSQL_USER: exapp_user
       MYSQL_PASSWORD: exapp
-
+    volumes:
+      - ./app/initdb.d:/docker-entrypoint-initdb.d

@@ -8,4 +8,3 @@ RUN npm install && npm cache verify
 COPY ./app $APP_ROOT
 EXPOSE 3000
 CMD ["node", "index.js"]
-

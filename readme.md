@@ -7,4 +7,3 @@ vol.1はこちらから
 
 - 特設ページ : https://peraichi.com/landing_pages/view/d097a
 - booth : https://manntera.booth.pm/items/1489100
-

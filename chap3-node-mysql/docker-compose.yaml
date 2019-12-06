@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   app:
     restart: always
@@ -21,4 +21,5 @@ services:
       MYSQL_USER: exapp_user
       MYSQL_PASSWORD: exapp
     volumes:
-      - ./app/initdb.d:/docker-entrypoint-initdb.d
+      - ./db/initdb.d:/docker-entrypoint-initdb.d
+      - ./db/my.cnf:/etc/mysql/conf.d/my.cnf
